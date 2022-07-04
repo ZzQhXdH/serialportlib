@@ -17,19 +17,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    /**
-     * A native method that is implemented by the 'serialportlib' native library,
-     * which is packaged with this application.
-     */
-
-<<<<<<< HEAD
-    companion object {
-        // Used to load the 'serialportlib' library on application startup.
-        init {
-            System.loadLibrary("serialportlib")
-        }
-    }
-=======
-
->>>>>>> 修改bug
 }
