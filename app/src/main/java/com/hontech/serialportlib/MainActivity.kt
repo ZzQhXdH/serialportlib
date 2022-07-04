@@ -22,10 +22,14 @@ class MainActivity : AppCompatActivity() {
      * which is packaged with this application.
      */
 
+<<<<<<< HEAD
     companion object {
         // Used to load the 'serialportlib' library on application startup.
         init {
             System.loadLibrary("serialportlib")
         }
     }
+=======
+
+>>>>>>> 修改bug
 }

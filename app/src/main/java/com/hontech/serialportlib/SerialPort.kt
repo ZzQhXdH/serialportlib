@@ -9,6 +9,13 @@ class SerialPort (val ref: Long) {
 
     companion object {
 
+<<<<<<< HEAD
+=======
+        init {
+            System.loadLibrary("serialportlib")
+        }
+
+>>>>>>> 修改bug
         private external fun open(name: String, baudRate: Int): Long
 
         fun open2(name: String, baudRate: Int): SerialPort {
